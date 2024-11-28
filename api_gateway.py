@@ -6,6 +6,7 @@ import json
 from app.models.question import Question
 from app.mcq_generation import MCQGenerator
 
+
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
