@@ -10,7 +10,7 @@ def show_result(generated: str, answer: str, context:str, original_question: str
     print('Question:')
     print(generated)
     print('Answer:')
-    print(answer)
+    print(answer) 
     print('-----------------------------')
 
 
